@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1D2226;
+  --color-blue: #6C25FF;
+  --color-purple: #6C25FF4B;
+  --color-light-gray: #CBCBCB;
+  --color-warning: #DD4A3D;
+  --color-body: #F7F8F9;
+}
+body {
+  font-family: "Rubik", sans-serif;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
